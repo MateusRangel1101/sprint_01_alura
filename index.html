@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Decodificador</title>
+    <link rel="stylesheet" href="./styles/style.css">
+
+</head>
+
+<body>
+    <header>
+        <!-- <img src="./assets/Logo.svg" alt="Logo"> -->
+        <h1 class="logo">M</h1>
+    </header>
+    <main class="apresentacao">
+        <section class="apresentacao__quadro_01">
+            <textarea id="texto_textarea" placeholder="Digite seu texto"></textarea>
+            <p id="texto01">*Apenas letras minúsculas e sem acento.</p>
+            <div class="apresentacao__quadro_01__botoes">
+                <a id="botao_01" class="apresentacao_botoes_link" href="#" onclick="criptografar()">Criptografar</a>
+                <a id="botao_02" class="apresentacao_botoes_link" href="#"
+                    onclick="descriptografar()">Descriptografar</a>
+            </div>
+        </section>
+        <section class="apresentacao__quadro_02">
+            <h2 id="textoNovo">Nenhuma mensagem encontrada</h2>
+            <p id="texto02">Digite um texto que você deseja criptografar ou descriptografar.</p>
+            <a id="botao_03" class="apresentacao_botoes_link" href="#" onclick="copiarTexto()">Copiar</a>
+        </section>
+    </main>
+    <footer class="rodape">
+        <p>Desenvolvido por Mateus Rangel ®</p>
+    </footer>
+    <script src="index.js" defer></script>
+</body>
+
+</html>
